@@ -12,11 +12,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-localflavor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-29 11:44+0200\n"
+"POT-Creation-Date: 2018-10-17 15:54+0200\n"
 "PO-Revision-Date: 2013-07-18 20:50+0000\n"
 "Last-Translator: injectedreality <transifex@ireality.no>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/django/"
-"language/nb/)\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/django/language/nb/)\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,8 +122,7 @@ msgstr "Tucumán"
 msgid "Enter a postal code in the format NNNN or ANNNNAAA."
 msgstr "Enter a postal code in the format NNNN or ANNNNAAA."
 
-#: ar/forms.py:58 br/forms.py:115 br/forms.py:166 pe/forms.py:29
-#: pe/forms.py:58
+#: ar/forms.py:58 br/forms.py:115 br/forms.py:166 pe/forms.py:29 pe/forms.py:58
 msgid "This field requires only numbers."
 msgstr "This field requires only numbers."
 
@@ -265,26 +263,16 @@ msgid "Enter a valid postal code in the range and format 1XXX - 9XXX."
 msgstr "Oppgi et gyldig postnummer på formen 1XXX - 9XXX."
 
 #: be/forms.py:50
-msgid ""
-"Enter a valid phone number in one of the formats 0x xxx xx xx, 0xx xx xx xx, "
-"04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, 0x.xxx.xx.xx, 0xx."
-"xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx or 04xxxxxxxx."
-msgstr ""
-"Oppgi et gyldig telefonnummer i et av følgende formater: 0x xxx xx xx, 0xx "
-"xx xx xx, 04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, 0x.xxx."
-"xx.xx, 0xx.xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx eller 04xxxxxxxx."
+msgid "Enter a valid phone number in one of the formats 0x xxx xx xx, 0xx xx xx xx, 04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, 0x.xxx.xx.xx, 0xx.xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx or 04xxxxxxxx."
+msgstr "Oppgi et gyldig telefonnummer i et av følgende formater: 0x xxx xx xx, 0xx xx xx xx, 04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, 0x.xxx.xx.xx, 0xx.xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx eller 04xxxxxxxx."
 
 #: br/forms.py:31
 msgid "Enter a zip code in the format XXXXX-XXX."
 msgstr "Oppgi et postnummer på formen XXXXX-XXX."
 
 #: br/forms.py:76
-msgid ""
-"Select a valid brazilian state. That state is not one of the available "
-"states."
-msgstr ""
-"Velg en gyldig brasiliansk stat. Den staten er ikke et av de tilgjengelige "
-"valgene."
+msgid "Select a valid brazilian state. That state is not one of the available states."
+msgstr "Velg en gyldig brasiliansk stat. Den staten er ikke et av de tilgjengelige valgene."
 
 #: br/forms.py:113
 msgid "Invalid CPF number."
@@ -301,6 +289,12 @@ msgstr "Ugyldig CNPJ-nummer."
 #: br/forms.py:167
 msgid "This field requires at least 14 digits"
 msgstr "Feltet krever minst 14 siffer."
+
+#: br/models.py:11
+#, fuzzy
+#| msgid "U.S. state (two uppercase letters)"
+msgid "State of Brazil (two uppercase letters)"
+msgstr "Stat (i USA, to store bokstaver)"
 
 #: ca/ca_provinces.py:6
 msgid "Alberta"
@@ -358,7 +352,7 @@ msgstr "Yukon"
 msgid "Enter a postal code in the format XXX XXX."
 msgstr "Oppgi et postnummer på formen XXX XXX."
 
-#: ca/forms.py:50 us/forms.py:39
+#: ca/forms.py:50 us/forms.py:47
 msgid "Phone numbers must be in XXX-XXX-XXXX format."
 msgstr "Telefonnumre må være på formen XXX-XXX-XXXX."
 
@@ -479,12 +473,8 @@ msgid "Phone numbers must be in 0XX XXX XX XX format."
 msgstr "Telefonnummer må være i format 0XX XXX XX XX."
 
 #: ch/forms.py:78
-msgid ""
-"Enter a valid Swiss identity or passport card number in X1234567<0 or "
-"1234567890 format."
-msgstr ""
-"Skriv inn et gyldig Sveitsisk identitet- eller passnummer med format "
-"X1234567<0 eller 1234567890."
+msgid "Enter a valid Swiss identity or passport card number in X1234567<0 or 1234567890 format."
+msgstr "Skriv inn et gyldig Sveitsisk identitet- eller passnummer med format X1234567<0 eller 1234567890."
 
 #: cl/forms.py:34
 msgid "Enter a valid Chilean RUT."
@@ -662,17 +652,101 @@ msgstr "Schleswig-Holstein"
 msgid "Thuringia"
 msgstr "Thüringen"
 
-#: de/forms.py:26 fi/forms.py:23 fr/forms.py:24
+#: de/forms.py:26 ee/forms.py:24 fi/forms.py:23 fr/forms.py:29
 msgid "Enter a zip code in the format XXXXX."
 msgstr "Oppgi et postnummer på formen XXXXX."
 
 #: de/forms.py:55
-msgid ""
-"Enter a valid German identity card number in XXXXXXXXXXX-XXXXXXX-XXXXXXX-X "
-"format."
+msgid "Enter a valid German identity card number in XXXXXXXXXXX-XXXXXXX-XXXXXXX-X format."
+msgstr "Oppgi et gyldig tysk identitetsnummer på formen XXXXXXXXXXX-XXXXXXX-XXXXXXX-X."
+
+#: ee/ee_counties.py:9
+#, fuzzy
+#| msgid "Basque Country"
+msgid "Harju County"
+msgstr "Baskerland"
+
+#: ee/ee_counties.py:10
+#, fuzzy
+#| msgid "Basque Country"
+msgid "Hiiu County"
+msgstr "Baskerland"
+
+#: ee/ee_counties.py:11
+#, fuzzy
+#| msgid "Basque Country"
+msgid "Ida-Viru County"
+msgstr "Baskerland"
+
+#: ee/ee_counties.py:12
+msgid "Jõgeva County"
 msgstr ""
-"Oppgi et gyldig tysk identitetsnummer på formen XXXXXXXXXXX-XXXXXXX-XXXXXXX-"
-"X."
+
+#: ee/ee_counties.py:13
+msgid "Järva County"
+msgstr ""
+
+#: ee/ee_counties.py:14
+msgid "Lääne County"
+msgstr ""
+
+#: ee/ee_counties.py:15
+msgid "Lääne-Viru County"
+msgstr ""
+
+#: ee/ee_counties.py:16
+msgid "Põlva County"
+msgstr ""
+
+#: ee/ee_counties.py:17
+msgid "Pärnu County"
+msgstr ""
+
+#: ee/ee_counties.py:18
+#, fuzzy
+#| msgid "Ural Federal County"
+msgid "Rapla County"
+msgstr "Ural, føderalt disktrikt"
+
+#: ee/ee_counties.py:19
+#, fuzzy
+#| msgid "Basque Country"
+msgid "Saare County"
+msgstr "Baskerland"
+
+#: ee/ee_counties.py:20
+#, fuzzy
+#| msgid "Basque Country"
+msgid "Tartu County"
+msgstr "Baskerland"
+
+#: ee/ee_counties.py:21
+#, fuzzy
+#| msgid "Ural Federal County"
+msgid "Valga County"
+msgstr "Ural, føderalt disktrikt"
+
+#: ee/ee_counties.py:22
+msgid "Viljandi County"
+msgstr ""
+
+#: ee/ee_counties.py:23
+#, fuzzy
+#| msgid "Basque Country"
+msgid "Võru County"
+msgstr "Baskerland"
+
+#: ee/forms.py:45
+#, fuzzy
+#| msgid "Enter a valid Swedish personal identity number."
+msgid "Enter an 11-digit Estonian personal identification code."
+msgstr "Oppgi et gyldig svensk personnummer."
+
+#: ee/forms.py:46
+#, fuzzy
+#| msgid "Enter a valid Swedish personal identity number."
+msgid "Enter a valid Estonian personal identification code."
+msgstr "Oppgi et gyldig svensk personnummer."
 
 #: es/es_provinces.py:6
 msgid "Araba"
@@ -947,12 +1021,8 @@ msgid "Enter a valid postal code in the range and format 01XXX - 52XXX."
 msgstr "Oppgi et gyldig postnummer på formen 01XXX - 52XXX."
 
 #: es/forms.py:48
-msgid ""
-"Enter a valid phone number in one of the formats 6XXXXXXXX, 8XXXXXXXX or "
-"9XXXXXXXX."
-msgstr ""
-"Oppgi et gyldig telefonnummer på et av følgende formater: 6XXXXXXXX, "
-"8XXXXXXXX eller 9XXXXXXXX."
+msgid "Enter a valid phone number in one of the formats 6XXXXXXXX, 8XXXXXXXX or 9XXXXXXXX."
+msgstr "Oppgi et gyldig telefonnummer på et av følgende formater: 6XXXXXXXX, 8XXXXXXXX eller 9XXXXXXXX."
 
 #: es/forms.py:76
 msgid "Please enter a valid NIF, NIE, or CIF."
@@ -975,8 +1045,7 @@ msgid "Invalid checksum for CIF."
 msgstr "Ugyldig kontrollsum for CIF."
 
 #: es/forms.py:153
-msgid ""
-"Please enter a valid bank account number in format XXXX-XXXX-XX-XXXXXXXXXX."
+msgid "Please enter a valid bank account number in format XXXX-XXXX-XX-XXXXXXXXXX."
 msgstr "Oppgi et gyldig kontonummer på formen XXXX-XXXX-XX-XXXXXXXXXX."
 
 #: es/forms.py:154
@@ -987,25 +1056,31 @@ msgstr "Ugyldig kontrollsum for kontonummer."
 msgid "Enter a valid Finnish social security number."
 msgstr "Oppgi et gyldig finsk personnummer."
 
-#: fr/forms.py:28
+#: fr/forms.py:33
 msgid "Zip code"
 msgstr "Postnummer"
 
-#: fr/forms.py:45
+#: fr/forms.py:50
 msgid "Phone numbers must be in 0X XX XX XX XX format."
 msgstr "Telefonnumre må være på formen 0X XX XX XX XX."
 
-#: fr/forms.py:49 us/models.py:39
+#: fr/forms.py:54 us/models.py:39
 msgid "Phone number"
 msgstr "Telefonnummer"
 
-#: fr/forms.py:108
+#: fr/forms.py:113
 msgid "Select Department"
 msgstr "Velg avdeling"
 
-#: fr/forms.py:119
+#: fr/forms.py:124
 msgid "Select Region"
 msgstr "Velg region"
+
+#: fr/forms.py:136
+#, fuzzy
+#| msgid "Enter a valid Turkish Identification number."
+msgid "Enter a valid French French National Identification number."
+msgstr "Oppgi et gyldig tyrkisk identifikasjonsnummer."
 
 #: gb/forms.py:26
 msgid "Enter a valid postcode."
@@ -1874,228 +1949,249 @@ msgstr "Oppgi et gyldig ID-nummer."
 msgid "Enter a valid Mobile Number."
 msgstr "Oppgi et gyldig Mobilnummer."
 
-#: in_/forms.py:46
+#: in_/forms.py:48
 msgid "Enter a zip code in the format XXXXXX or XXX XXX."
 msgstr "Oppgi et postnummer på formen XXXXXX or XXX XXX."
 
-#: in_/forms.py:69
+#: in_/forms.py:71
 msgid "Enter an Indian state or territory."
 msgstr "Oppgi en indisk stat eller et område."
 
-#: in_/forms.py:108
+#: in_/forms.py:111
+#, fuzzy
+#| msgid "Enter a valid CI number in X.XXX.XXX-X,XXXXXXX-X or XXXXXXXX format."
+msgid "Enter a valid Aadhaar number in XXXX XXXX XXXX or XXXX-XXXX-XXXX format."
+msgstr "Oppgi gyldig CI på formen X.XXX.XXX-X,XXXXXXX-X eller XXXXXXXX."
+
+#: in_/forms.py:152
 msgid "Phone numbers must be in 02X-8X or 03X-7X or 04X-6X format."
 msgstr "Telefonnumre må være på formen 02X-8X, 03X-7X eller 04X-6X."
 
+#: in_/models.py:12
+#, fuzzy
+#| msgid "U.S. state (two uppercase letters)"
+msgid "Indian state (two uppercase letters)"
+msgstr "Stat (i USA, to store bokstaver)"
+
 #: is_/forms.py:29
-msgid ""
-"Enter a valid Icelandic identification number. The format is XXXXXX-XXXX."
+msgid "Enter a valid Icelandic identification number. The format is XXXXXX-XXXX."
 msgstr "Oppgi et gyldig islandsk identifikasjonsnummer på formen XXXXXX-XXXX."
 
 #: is_/forms.py:30
 msgid "The Icelandic identification number is not valid."
 msgstr "Det islandske identifikasjonsnummeret er ugyldig."
 
-#: it/forms.py:26
+#: it/forms.py:29
 msgid "Enter a valid zip code."
 msgstr "Oppgi et gyldig postnummer."
 
-#: it/forms.py:57
+#: it/forms.py:69
 msgid "Enter a valid Social Security number."
 msgstr "Oppgi et gyldig italiensk personnummer."
 
-#: it/forms.py:84
+#: it/forms.py:101
 msgid "Enter a valid VAT number."
 msgstr "Oppgi et gyldig VAT-nummer."
+
+#: it/forms.py:122
+#, fuzzy
+#| msgid "Enter a valid phone number."
+msgid "Enter a valid Italian phone number."
+msgstr "Oppgi et gyldig telefonnummer."
+
+#: it/util.py:46 it/util.py:59
+msgid "Check digit does not match."
+msgstr ""
 
 #: jp/forms.py:19
 msgid "Enter a postal code in the format XXXXXXX or XXX-XXXX."
 msgstr "Oppgi et postnummer på formen XXXXXXX eller XXX-XXXX."
 
-#: jp/jp_prefectures.py:5
+#: jp/jp_prefectures.py:12 jp/jp_prefectures.py:64
 msgid "Hokkaido"
 msgstr "Hokkaido"
 
-#: jp/jp_prefectures.py:6
+#: jp/jp_prefectures.py:13 jp/jp_prefectures.py:65
 msgid "Aomori"
 msgstr "Aomori"
 
-#: jp/jp_prefectures.py:7
+#: jp/jp_prefectures.py:14 jp/jp_prefectures.py:66
 msgid "Iwate"
 msgstr "Iwate"
 
-#: jp/jp_prefectures.py:8
+#: jp/jp_prefectures.py:15 jp/jp_prefectures.py:67
 msgid "Miyagi"
 msgstr "Miyagi"
 
-#: jp/jp_prefectures.py:9
+#: jp/jp_prefectures.py:16 jp/jp_prefectures.py:68
 msgid "Akita"
 msgstr "Akita"
 
-#: jp/jp_prefectures.py:10
+#: jp/jp_prefectures.py:17 jp/jp_prefectures.py:69
 msgid "Yamagata"
 msgstr "Yamagata"
 
-#: jp/jp_prefectures.py:11
+#: jp/jp_prefectures.py:18 jp/jp_prefectures.py:70
 msgid "Fukushima"
 msgstr "Fukushima"
 
-#: jp/jp_prefectures.py:12
+#: jp/jp_prefectures.py:19 jp/jp_prefectures.py:71
 msgid "Ibaraki"
 msgstr "Ibaraki"
 
-#: jp/jp_prefectures.py:13
+#: jp/jp_prefectures.py:20 jp/jp_prefectures.py:72
 msgid "Tochigi"
 msgstr "Tochigi"
 
-#: jp/jp_prefectures.py:14
+#: jp/jp_prefectures.py:21 jp/jp_prefectures.py:73
 msgid "Gunma"
 msgstr "Gunma"
 
-#: jp/jp_prefectures.py:15
+#: jp/jp_prefectures.py:22 jp/jp_prefectures.py:74
 msgid "Saitama"
 msgstr "Saitama"
 
-#: jp/jp_prefectures.py:16
+#: jp/jp_prefectures.py:23 jp/jp_prefectures.py:75
 msgid "Chiba"
 msgstr "Chiba"
 
-#: jp/jp_prefectures.py:17
+#: jp/jp_prefectures.py:24 jp/jp_prefectures.py:76
 msgid "Tokyo"
 msgstr "Tokyo"
 
-#: jp/jp_prefectures.py:18
+#: jp/jp_prefectures.py:25 jp/jp_prefectures.py:77
 msgid "Kanagawa"
 msgstr "Kanagawa"
 
-#: jp/jp_prefectures.py:19
-msgid "Yamanashi"
-msgstr "Yamanashi"
-
-#: jp/jp_prefectures.py:20
-msgid "Nagano"
-msgstr "Nagano"
-
-#: jp/jp_prefectures.py:21
+#: jp/jp_prefectures.py:26 jp/jp_prefectures.py:78
 msgid "Niigata"
 msgstr "Niigata"
 
-#: jp/jp_prefectures.py:22
+#: jp/jp_prefectures.py:27 jp/jp_prefectures.py:79
 msgid "Toyama"
 msgstr "Toyama"
 
-#: jp/jp_prefectures.py:23
+#: jp/jp_prefectures.py:28 jp/jp_prefectures.py:80
 msgid "Ishikawa"
 msgstr "Ishikawa"
 
-#: jp/jp_prefectures.py:24
+#: jp/jp_prefectures.py:29 jp/jp_prefectures.py:81
 msgid "Fukui"
 msgstr "Fukui"
 
-#: jp/jp_prefectures.py:25
+#: jp/jp_prefectures.py:30 jp/jp_prefectures.py:82
+msgid "Yamanashi"
+msgstr "Yamanashi"
+
+#: jp/jp_prefectures.py:31 jp/jp_prefectures.py:83
+msgid "Nagano"
+msgstr "Nagano"
+
+#: jp/jp_prefectures.py:32 jp/jp_prefectures.py:84
 msgid "Gifu"
 msgstr "Gifu"
 
-#: jp/jp_prefectures.py:26
+#: jp/jp_prefectures.py:33 jp/jp_prefectures.py:85
 msgid "Shizuoka"
 msgstr "Shizuoka"
 
-#: jp/jp_prefectures.py:27
+#: jp/jp_prefectures.py:34 jp/jp_prefectures.py:86
 msgid "Aichi"
 msgstr "Aichi"
 
-#: jp/jp_prefectures.py:28
+#: jp/jp_prefectures.py:35 jp/jp_prefectures.py:87
 msgid "Mie"
 msgstr "Mie"
 
-#: jp/jp_prefectures.py:29
+#: jp/jp_prefectures.py:36 jp/jp_prefectures.py:88
 msgid "Shiga"
 msgstr "Shiga"
 
-#: jp/jp_prefectures.py:30
+#: jp/jp_prefectures.py:37 jp/jp_prefectures.py:89
 msgid "Kyoto"
 msgstr "Kyoto"
 
-#: jp/jp_prefectures.py:31
+#: jp/jp_prefectures.py:38 jp/jp_prefectures.py:90
 msgid "Osaka"
 msgstr "Osaka"
 
-#: jp/jp_prefectures.py:32
+#: jp/jp_prefectures.py:39 jp/jp_prefectures.py:91
 msgid "Hyogo"
 msgstr "Hyogo"
 
-#: jp/jp_prefectures.py:33
+#: jp/jp_prefectures.py:40 jp/jp_prefectures.py:92
 msgid "Nara"
 msgstr "Nara"
 
-#: jp/jp_prefectures.py:34
+#: jp/jp_prefectures.py:41 jp/jp_prefectures.py:93
 msgid "Wakayama"
 msgstr "Wakayama"
 
-#: jp/jp_prefectures.py:35
+#: jp/jp_prefectures.py:42 jp/jp_prefectures.py:94
 msgid "Tottori"
 msgstr "Tottori"
 
-#: jp/jp_prefectures.py:36
+#: jp/jp_prefectures.py:43 jp/jp_prefectures.py:95
 msgid "Shimane"
 msgstr "Shimane"
 
-#: jp/jp_prefectures.py:37
+#: jp/jp_prefectures.py:44 jp/jp_prefectures.py:96
 msgid "Okayama"
 msgstr "Okayama"
 
-#: jp/jp_prefectures.py:38
+#: jp/jp_prefectures.py:45 jp/jp_prefectures.py:97
 msgid "Hiroshima"
 msgstr "Hiroshima"
 
-#: jp/jp_prefectures.py:39
+#: jp/jp_prefectures.py:46 jp/jp_prefectures.py:98
 msgid "Yamaguchi"
 msgstr "Yamaguchi"
 
-#: jp/jp_prefectures.py:40
+#: jp/jp_prefectures.py:47 jp/jp_prefectures.py:99
 msgid "Tokushima"
 msgstr "Tokushima"
 
-#: jp/jp_prefectures.py:41
+#: jp/jp_prefectures.py:48 jp/jp_prefectures.py:100
 msgid "Kagawa"
 msgstr "Kagawa"
 
-#: jp/jp_prefectures.py:42
+#: jp/jp_prefectures.py:49 jp/jp_prefectures.py:101
 msgid "Ehime"
 msgstr "Ehime"
 
-#: jp/jp_prefectures.py:43
+#: jp/jp_prefectures.py:50 jp/jp_prefectures.py:102
 msgid "Kochi"
 msgstr "Kochi"
 
-#: jp/jp_prefectures.py:44
+#: jp/jp_prefectures.py:51 jp/jp_prefectures.py:103
 msgid "Fukuoka"
 msgstr "Fukuoka"
 
-#: jp/jp_prefectures.py:45
+#: jp/jp_prefectures.py:52 jp/jp_prefectures.py:104
 msgid "Saga"
 msgstr "Saga"
 
-#: jp/jp_prefectures.py:46
+#: jp/jp_prefectures.py:53 jp/jp_prefectures.py:105
 msgid "Nagasaki"
 msgstr "Nagasaki"
 
-#: jp/jp_prefectures.py:47
+#: jp/jp_prefectures.py:54 jp/jp_prefectures.py:106
 msgid "Kumamoto"
 msgstr "Kumamoto"
 
-#: jp/jp_prefectures.py:48
+#: jp/jp_prefectures.py:55 jp/jp_prefectures.py:107
 msgid "Oita"
 msgstr "Oita"
 
-#: jp/jp_prefectures.py:49
+#: jp/jp_prefectures.py:56 jp/jp_prefectures.py:108
 msgid "Miyazaki"
 msgstr "Miyazaki"
 
-#: jp/jp_prefectures.py:50
+#: jp/jp_prefectures.py:57 jp/jp_prefectures.py:109
 msgid "Kagoshima"
 msgstr "Kagoshima"
 
-#: jp/jp_prefectures.py:51
+#: jp/jp_prefectures.py:58 jp/jp_prefectures.py:110
 msgid "Okinawa"
 msgstr "Okinawa"
 
@@ -2103,21 +2199,31 @@ msgstr "Okinawa"
 msgid "Enter a valid Kuwaiti Civil ID number"
 msgstr "Oppgi et gyldig Kuwaiti Civil ID-nummer."
 
-#: lt/forms.py:37
+#: lt/forms.py:42
 msgid "ID Code consists of exactly 11 decimal digits."
 msgstr "Identitetsnummer består av eksakt 11 tall"
 
-#: lt/forms.py:38
+#: lt/forms.py:43
 msgid "Wrong ID Code checksum."
 msgstr "Feil sjekksum på identitetsnummer"
 
-#: lt/forms.py:39
+#: lt/forms.py:44
 msgid "ID Code contains invalid date."
 msgstr "Identitetsnummer inneholder en ugyldig dato"
 
-#: lt/forms.py:95
+#: lt/forms.py:100
 msgid "Enter a postal code in the format XXXXX or LT-XXXXX."
 msgstr "Oppgi postnummer i format XXXXX eller LT-XXXXX."
+
+#: lt/forms.py:146
+msgid "Phone number can only contain digits"
+msgstr ""
+
+#: lt/forms.py:147
+#, fuzzy
+#| msgid "Enter a valid phone number"
+msgid "Could not validate the phone number"
+msgstr "Oppgi et gyldig telefonnummer."
 
 #: lt/lt_choices.py:7
 msgid "Alytus"
@@ -2399,13 +2505,509 @@ msgstr "Visaginas"
 msgid "Zarasai district"
 msgstr "Zarasai district"
 
-#: mk/forms.py:18
-msgid ""
-"Identity card numbers must contain either 4 to 7 digits or an uppercase "
-"letter and 7 digits."
+#: lv/forms.py:27
+#, fuzzy
+#| msgid "Enter a postal code in the format XXXXX or LT-XXXXX."
+msgid "Enter a postal code in the format XXXX or LV-XXXX."
+msgstr "Oppgi postnummer i format XXXXX eller LT-XXXXX."
+
+#: lv/forms.py:52
+#, fuzzy
+#| msgid "Enter a zip code in the format XXXXX-XXX."
+msgid "Enter a Latvian personal code in format XXXXXX-XXXXX."
+msgstr "Oppgi et postnummer på formen XXXXX-XXX."
+
+#: lv/forms.py:53
+#, fuzzy
+#| msgid "Enter a valid location code"
+msgid "Enter a valid Latvian personal code."
+msgstr "Oppgi en gyldig stedskode"
+
+#: lv/lv_choices.py:9
+msgid "Daugavpils"
 msgstr ""
-"Identitetskortnummer må inneholde enten 4 eller 7 siffer eller en stor "
-"bokstav og 7 siffer."
+
+#: lv/lv_choices.py:10
+msgid "Jelgava"
+msgstr ""
+
+#: lv/lv_choices.py:11
+msgid "Jēkabpils"
+msgstr ""
+
+#: lv/lv_choices.py:12
+msgid "Jūrmala"
+msgstr ""
+
+#: lv/lv_choices.py:13
+msgid "Liepāja"
+msgstr ""
+
+#: lv/lv_choices.py:14
+msgid "Rēzekne"
+msgstr ""
+
+#: lv/lv_choices.py:15
+msgid "Riga"
+msgstr ""
+
+#: lv/lv_choices.py:16
+msgid "Valmiera"
+msgstr ""
+
+#: lv/lv_choices.py:17
+msgid "Ventspils"
+msgstr ""
+
+#: lv/lv_choices.py:19
+msgid "Aglona municipality"
+msgstr ""
+
+#: lv/lv_choices.py:20
+msgid "Aizkraukle municipality"
+msgstr ""
+
+#: lv/lv_choices.py:21
+msgid "Aizpute municipality"
+msgstr ""
+
+#: lv/lv_choices.py:22
+msgid "Aknīste municipality"
+msgstr ""
+
+#: lv/lv_choices.py:23
+msgid "Aloja municipality"
+msgstr ""
+
+#: lv/lv_choices.py:24
+msgid "Alsunga municipality"
+msgstr ""
+
+#: lv/lv_choices.py:25
+msgid "Alūksne municipality"
+msgstr ""
+
+#: lv/lv_choices.py:26
+msgid "Amata municipality"
+msgstr ""
+
+#: lv/lv_choices.py:27
+msgid "Ape municipality"
+msgstr ""
+
+#: lv/lv_choices.py:28
+msgid "Auce municipality"
+msgstr ""
+
+#: lv/lv_choices.py:29
+msgid "Ādaži municipality"
+msgstr ""
+
+#: lv/lv_choices.py:30
+msgid "Babīte municipality"
+msgstr ""
+
+#: lv/lv_choices.py:31
+msgid "Baldone municipality"
+msgstr ""
+
+#: lv/lv_choices.py:32
+msgid "Baltinava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:33
+msgid "Balvi municipality"
+msgstr ""
+
+#: lv/lv_choices.py:34
+msgid "Bauska municipality"
+msgstr ""
+
+#: lv/lv_choices.py:35
+msgid "Beverīna municipality"
+msgstr ""
+
+#: lv/lv_choices.py:36
+msgid "Brocēni municipality"
+msgstr ""
+
+#: lv/lv_choices.py:37
+msgid "Burtnieki municipality"
+msgstr ""
+
+#: lv/lv_choices.py:38
+msgid "Carnikava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:39
+msgid "Cesvaine municipality"
+msgstr ""
+
+#: lv/lv_choices.py:40
+msgid "Cēsis municipality"
+msgstr ""
+
+#: lv/lv_choices.py:41
+msgid "Cibla municipality"
+msgstr ""
+
+#: lv/lv_choices.py:42
+msgid "Dagda municipality"
+msgstr ""
+
+#: lv/lv_choices.py:43
+msgid "Daugavpils municipality"
+msgstr ""
+
+#: lv/lv_choices.py:44
+msgid "Dobele municipality"
+msgstr ""
+
+#: lv/lv_choices.py:45
+msgid "Dundaga municipality"
+msgstr ""
+
+#: lv/lv_choices.py:46
+msgid "Durbe municipality"
+msgstr ""
+
+#: lv/lv_choices.py:47
+msgid "Engure municipality"
+msgstr ""
+
+#: lv/lv_choices.py:48
+msgid "Ērgļi municipality"
+msgstr ""
+
+#: lv/lv_choices.py:49
+msgid "Garkalne municipality"
+msgstr ""
+
+#: lv/lv_choices.py:50
+msgid "Grobiņa municipality"
+msgstr ""
+
+#: lv/lv_choices.py:51
+msgid "Gulbene municipality"
+msgstr ""
+
+#: lv/lv_choices.py:52
+msgid "Iecava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:53
+msgid "Ikšķile municipality"
+msgstr ""
+
+#: lv/lv_choices.py:54
+msgid "Ilūkste municipality"
+msgstr ""
+
+#: lv/lv_choices.py:55
+msgid "Inčukalns municipality"
+msgstr ""
+
+#: lv/lv_choices.py:56
+msgid "Jaunjelgava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:57
+msgid "Jaunpiebalga municipality"
+msgstr ""
+
+#: lv/lv_choices.py:58
+msgid "Jaunpils municipality"
+msgstr ""
+
+#: lv/lv_choices.py:59
+msgid "Jelgava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:60
+msgid "Jēkabpils municipality"
+msgstr ""
+
+#: lv/lv_choices.py:61
+msgid "Kandava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:62
+msgid "Kārsava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:63
+msgid "Kocēni municipality"
+msgstr ""
+
+#: lv/lv_choices.py:64
+msgid "Koknese municipality"
+msgstr ""
+
+#: lv/lv_choices.py:65
+msgid "Krāslava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:66
+msgid "Krimulda municipality"
+msgstr ""
+
+#: lv/lv_choices.py:67
+msgid "Krustpils municipality"
+msgstr ""
+
+#: lv/lv_choices.py:68
+msgid "Kuldīga municipality"
+msgstr ""
+
+#: lv/lv_choices.py:69
+msgid "Ķegums municipality"
+msgstr ""
+
+#: lv/lv_choices.py:70
+msgid "Ķekava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:71
+msgid "Lielvārde municipality"
+msgstr ""
+
+#: lv/lv_choices.py:72
+msgid "Limbaži municipality"
+msgstr ""
+
+#: lv/lv_choices.py:73
+msgid "Līgatne municipality"
+msgstr ""
+
+#: lv/lv_choices.py:74
+msgid "Līvāni municipality"
+msgstr ""
+
+#: lv/lv_choices.py:75
+msgid "Lubāna municipality"
+msgstr ""
+
+#: lv/lv_choices.py:76
+msgid "Ludza municipality"
+msgstr ""
+
+#: lv/lv_choices.py:77
+#, fuzzy
+#| msgid "A Macedonian municipality (2 character code)"
+msgid "Madona municipality"
+msgstr "Et makedonsk fylke (2-tegns kode)"
+
+#: lv/lv_choices.py:78
+msgid "Mazsalaca municipality"
+msgstr ""
+
+#: lv/lv_choices.py:79
+msgid "Mālpils municipality"
+msgstr ""
+
+#: lv/lv_choices.py:80
+msgid "Mārupe municipality"
+msgstr ""
+
+#: lv/lv_choices.py:81
+msgid "Mērsrags municipality"
+msgstr ""
+
+#: lv/lv_choices.py:82
+msgid "Naukšēni municipality"
+msgstr ""
+
+#: lv/lv_choices.py:83
+msgid "Nereta municipality"
+msgstr ""
+
+#: lv/lv_choices.py:84
+msgid "Nīca municipality"
+msgstr ""
+
+#: lv/lv_choices.py:85
+msgid "Ogre municipality"
+msgstr ""
+
+#: lv/lv_choices.py:86
+msgid "Olaine municipality"
+msgstr ""
+
+#: lv/lv_choices.py:87
+msgid "Ozolnieki municipality"
+msgstr ""
+
+#: lv/lv_choices.py:88
+msgid "Pārgauja municipality"
+msgstr ""
+
+#: lv/lv_choices.py:89
+msgid "Pāvilosta municipality"
+msgstr ""
+
+#: lv/lv_choices.py:90
+msgid "Pļaviņas municipality"
+msgstr ""
+
+#: lv/lv_choices.py:91
+msgid "Preiļi municipality"
+msgstr ""
+
+#: lv/lv_choices.py:92
+msgid "Priekule municipality"
+msgstr ""
+
+#: lv/lv_choices.py:93
+msgid "Priekuļi municipality"
+msgstr ""
+
+#: lv/lv_choices.py:94
+#, fuzzy
+#| msgid "Kaunas city"
+msgid "Rauna municipality"
+msgstr "Kaunas city"
+
+#: lv/lv_choices.py:95
+msgid "Rēzekne municipality"
+msgstr ""
+
+#: lv/lv_choices.py:96
+msgid "Riebiņi municipality"
+msgstr ""
+
+#: lv/lv_choices.py:97
+msgid "Roja municipality"
+msgstr ""
+
+#: lv/lv_choices.py:98
+msgid "Ropaži municipality"
+msgstr ""
+
+#: lv/lv_choices.py:99
+msgid "Rucava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:100
+msgid "Rugāji municipality"
+msgstr ""
+
+#: lv/lv_choices.py:101
+msgid "Rundāle municipality"
+msgstr ""
+
+#: lv/lv_choices.py:102
+msgid "Rūjiena municipality"
+msgstr ""
+
+#: lv/lv_choices.py:103
+#, fuzzy
+#| msgid "Salamanca"
+msgid "Sala municipality"
+msgstr "Salamanca"
+
+#: lv/lv_choices.py:104
+msgid "Salacgrīva municipality"
+msgstr ""
+
+#: lv/lv_choices.py:105
+msgid "Salaspils municipality"
+msgstr ""
+
+#: lv/lv_choices.py:106
+msgid "Saldus municipality"
+msgstr ""
+
+#: lv/lv_choices.py:107
+msgid "Saulkrasti municipality"
+msgstr ""
+
+#: lv/lv_choices.py:108
+msgid "Sēja municipality"
+msgstr ""
+
+#: lv/lv_choices.py:109
+msgid "Sigulda municipality"
+msgstr ""
+
+#: lv/lv_choices.py:110
+msgid "Skrīveri municipality"
+msgstr ""
+
+#: lv/lv_choices.py:111
+msgid "Skrunda municipality"
+msgstr ""
+
+#: lv/lv_choices.py:112
+msgid "Smiltene municipality"
+msgstr ""
+
+#: lv/lv_choices.py:113
+msgid "Stopiņi municipality"
+msgstr ""
+
+#: lv/lv_choices.py:114
+msgid "Strenči municipality"
+msgstr ""
+
+#: lv/lv_choices.py:115
+msgid "Talsi municipality"
+msgstr ""
+
+#: lv/lv_choices.py:116
+msgid "Tērvete municipality"
+msgstr ""
+
+#: lv/lv_choices.py:117
+msgid "Tukums municipality"
+msgstr ""
+
+#: lv/lv_choices.py:118
+msgid "Vaiņode municipality"
+msgstr ""
+
+#: lv/lv_choices.py:119
+msgid "Valka municipality"
+msgstr ""
+
+#: lv/lv_choices.py:120
+msgid "Varakļāni municipality"
+msgstr ""
+
+#: lv/lv_choices.py:121
+msgid "Vārkava municipality"
+msgstr ""
+
+#: lv/lv_choices.py:122
+msgid "Vecpiebalga municipality"
+msgstr ""
+
+#: lv/lv_choices.py:123
+msgid "Vecumnieki municipality"
+msgstr ""
+
+#: lv/lv_choices.py:124
+msgid "Ventspils municipality"
+msgstr ""
+
+#: lv/lv_choices.py:125
+msgid "Viesīte municipality"
+msgstr ""
+
+#: lv/lv_choices.py:126
+msgid "Viļaka municipality"
+msgstr ""
+
+#: lv/lv_choices.py:127
+msgid "Viļāni municipality"
+msgstr ""
+
+#: lv/lv_choices.py:128
+msgid "Zilupe municipality"
+msgstr ""
+
+#: mk/forms.py:18
+msgid "Identity card numbers must contain either 4 to 7 digits or an uppercase letter and 7 digits."
+msgstr "Identitetskortnummer må inneholde enten 4 eller 7 siffer eller en stor bokstav og 7 siffer."
 
 #: mk/forms.py:57 si/forms.py:26
 msgid "This field should contain exactly 13 digits."
@@ -2413,8 +3015,7 @@ msgstr "Dette feltet bør inneholde nøyaktig 13 siffer."
 
 #: mk/forms.py:58
 msgid "The first 7 digits of the UMCN must represent a valid past date."
-msgstr ""
-"De første syv sifrene av UMCN må representere en gyldig dato i fortiden."
+msgstr "De første syv sifrene av UMCN må representere en gyldig dato i fortiden."
 
 #: mk/forms.py:59
 msgid "The UMCN is not valid."
@@ -2952,6 +3553,16 @@ msgstr "Oppgi et gyldig postnummer."
 msgid "Enter a valid SoFi number"
 msgstr "Oppgi et gyldig SoFi-nummer."
 
+#: nl/models.py:19
+#, fuzzy
+#| msgid "Enter a valid phone number"
+msgid "Enter a valid bank account number"
+msgstr "Oppgi et gyldig telefonnummer."
+
+#: nl/models.py:20
+msgid "Bank account numbers have 1 - 7, 9 or 10 digits"
+msgstr ""
+
 #: nl/nl_provinces.py:8
 msgid "Drenthe"
 msgstr "Drenthe"
@@ -3004,6 +3615,18 @@ msgstr "Oppgi et gyldig norsk personnummer."
 msgid "A phone number must be 8 digits and may have country code"
 msgstr "Et telefonnummer må ha 8 siffer og eventuelt landkode"
 
+#: no/forms.py:121
+#, fuzzy
+#| msgid "Enter a valid Norwegian social security number."
+msgid "Please enter a valid Norwegian bank account number"
+msgstr "Oppgi et gyldig norsk personnummer."
+
+#: no/forms.py:152
+#, fuzzy
+#| msgid "Enter a valid Swedish organisation number."
+msgid "Please enter a valid Norwegian organisation number"
+msgstr "Oppgi et gyldig svensk organisasjonsnummer."
+
 #: pe/forms.py:30
 msgid "This field requires 8 digits."
 msgstr "Feltet krever åtte siffer."
@@ -3011,6 +3634,68 @@ msgstr "Feltet krever åtte siffer."
 #: pe/forms.py:59
 msgid "This field requires 11 digits."
 msgstr "Feltet krever 11 siffer."
+
+#: pk/forms.py:26
+#, fuzzy
+#| msgid "Enter a 4 digit postcode."
+msgid "Enter a 5 digit postcode."
+msgstr "Oppgi et firesifret postnummer."
+
+#: pk/forms.py:40
+#, fuzzy
+#| msgid "Phone numbers must be in 0XX XXX XX XX format."
+msgid "Phone numbers must contain 9, 10 or 11 digits."
+msgstr "Telefonnummer må være i format 0XX XXX XX XX."
+
+#: pk/models.py:14
+#, fuzzy
+#| msgid "Australian State"
+msgid "Pakistani State"
+msgstr "Australsk stat"
+
+#: pk/models.py:28
+#, fuzzy
+#| msgid "Australian Postcode"
+msgid "Pakistani Postcode"
+msgstr "Australsk postnummer"
+
+#: pk/models.py:45
+#, fuzzy
+#| msgid "Australian Phone number"
+msgid "Pakistani Phone number"
+msgstr "Australsk telefonnummer"
+
+#: pk/pk_states.py:6
+msgid "Azad Jammu & Kashmir"
+msgstr ""
+
+#: pk/pk_states.py:7
+msgid "Balochistan"
+msgstr ""
+
+#: pk/pk_states.py:8
+msgid "Federally Administered Tribal Areas"
+msgstr ""
+
+#: pk/pk_states.py:9
+msgid "Gilgit-Baltistan"
+msgstr ""
+
+#: pk/pk_states.py:10
+msgid "Islamabad"
+msgstr ""
+
+#: pk/pk_states.py:11
+msgid "Khyber Pakhtunkhwa"
+msgstr ""
+
+#: pk/pk_states.py:12
+msgid "Punjab"
+msgstr ""
+
+#: pk/pk_states.py:13
+msgid "Sindh"
+msgstr ""
 
 #: pl/forms.py:45
 msgid "National Identification Number consists of 11 digits."
@@ -3029,12 +3714,8 @@ msgid "Wrong checksum for the National ID Card Number."
 msgstr "Feil sjekksum for nasjonalit ID-kortnummer."
 
 #: pl/forms.py:136
-msgid ""
-"Enter a tax number field (NIP) in the format XXX-XXX-XX-XX, XXX-XX-XX-XXX or "
-"XXXXXXXXXX."
-msgstr ""
-"Oppgi et skattenummer (NIP) på formen XXX-XXX-XX-XX, XXX-XX-XX-XXX eller "
-"XXXXXXXXXX."
+msgid "Enter a tax number field (NIP) in the format XXX-XXX-XX-XX, XXX-XX-XX-XXX or XXXXXXXXXX."
+msgstr "Oppgi et skattenummer (NIP) på formen XXX-XXX-XX-XX, XXX-XX-XX-XXX eller XXXXXXXXXX."
 
 #: pl/forms.py:137
 msgid "Wrong checksum for the Tax Number (NIP)."
@@ -3048,7 +3729,7 @@ msgstr "National Business Register Number (REGON) består av 9 eller 14 siffer."
 msgid "Wrong checksum for the National Business Register Number (REGON)."
 msgstr "Ugyldig kontrollsum for National Business Register Number (REGON)."
 
-#: pl/forms.py:220
+#: pl/forms.py:226
 msgid "Enter a postal code in the format XX-XXX."
 msgstr "Oppgi et postnummer på formen XX-XXX."
 
@@ -3121,40 +3802,24 @@ msgid "The specified value is not a valid Citizen Card number."
 msgstr "Verdien som ble oppgitt er ikke et gyldig personnummer."
 
 #: pt/forms.py:39
-msgid ""
-"Citizen Card numbers have the format XXXXXXXXXYYX or XXXXXXXX-XYYX (where X "
-"is a digit and Y is an alphanumeric character)."
-msgstr ""
-"Personnummer må være i format XXXXXXXXXYYX eller XXXXXXXX-XYYX (hvor X er "
-"tall og Y er alfanumeriske tegn)"
+msgid "Citizen Card numbers have the format XXXXXXXXXYYX or XXXXXXXX-XYYX (where X is a digit and Y is an alphanumeric character)."
+msgstr "Personnummer må være i format XXXXXXXXXYYX eller XXXXXXXX-XYYX (hvor X er tall og Y er alfanumeriske tegn)"
 
 #: pt/forms.py:78
-msgid ""
-"Phone numbers have at least 3 and at most 9 digits and may optionally be "
-"prefixed with '00351' or '+351'."
-msgstr ""
-"Telefonnummer med mellom 3 og 9 tall. Nummeret kan prefikset med '00351' "
-"eller '+351'."
+msgid "Phone numbers have at least 3 and at most 9 digits and may optionally be prefixed with '00351' or '+351'."
+msgstr "Telefonnummer med mellom 3 og 9 tall. Nummeret kan prefikset med '00351' eller '+351'."
 
 #: pt/forms.py:113
 msgid "The specified number is not a valid Social Security number."
 msgstr "Det spesifiserte personnummeret er ikke gyldig."
 
 #: pt/forms.py:114
-msgid ""
-"Social Security numbers must be in the format XYYYYYYYYYY (where X is either "
-"1 or 2 and Y is any other digit)."
-msgstr ""
-"Personnummer må være i format XYYYYYYYYYY (hvor X er enten 1 eller 2 og Y et "
-"hvilket som helst tall)."
+msgid "Social Security numbers must be in the format XYYYYYYYYYY (where X is either 1 or 2 and Y is any other digit)."
+msgstr "Personnummer må være i format XYYYYYYYYYY (hvor X er enten 1 eller 2 og Y et hvilket som helst tall)."
 
 #: pt/forms.py:150
-msgid ""
-"Zip codes must be in the format XYYY-YYY (where X is a digit between 1 and 9 "
-"and Y is any other digit)."
-msgstr ""
-"Postnummer må oppgis i format XYYY-YYY (hvor X er et tall mellom 1 og 9, og "
-"Y er et hvilket som helst tall)."
+msgid "Zip codes must be in the format XYYY-YYY (where X is a digit between 1 and 9 and Y is any other digit)."
+msgstr "Postnummer må oppgis i format XYYY-YYY (hvor X er et tall mellom 1 og 9, og Y er et hvilket som helst tall)."
 
 #: pt/pt_regions.py:7
 msgid "Aveiro"
@@ -3734,8 +4399,7 @@ msgstr "Jämtland"
 
 #: si/forms.py:27
 msgid "The first 7 digits of the EMSO must represent a valid past date."
-msgstr ""
-"De første 7 siffer av EMSO-en må representere en gyldig dato i fortiden."
+msgstr "De første 7 siffer av EMSO-en må representere en gyldig dato i fortiden."
 
 #: si/forms.py:28
 msgid "The EMSO is not valid."
@@ -4113,16 +4777,15 @@ msgstr "Oppgi et gyldig tyrkisk identifikasjonsnummer."
 msgid "Turkish Identification number must be 11 digits."
 msgstr "Tyrkiske identifikasjonsnummer må være 11 siffer."
 
-#: us/forms.py:26
+#: us/forms.py:30
 msgid "Enter a zip code in the format XXXXX or XXXXX-XXXX."
 msgstr "Oppgi et postnummer på formen XXXXX eller XXXXX-XXXX."
 
-#: us/forms.py:69
+#: us/forms.py:77
 msgid "Enter a valid U.S. Social Security number in XXX-XX-XXXX format."
-msgstr ""
-"Oppgi et gyldig amerikansk Social Security-nummer på formen XXX-XX-XXXX."
+msgstr "Oppgi et gyldig amerikansk Social Security-nummer på formen XXX-XX-XXXX."
 
-#: us/forms.py:102
+#: us/forms.py:109
 msgid "Enter a U.S. state or territory."
 msgstr "Oppgi en amerikansk stat eller et område"
 
