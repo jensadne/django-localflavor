@@ -740,7 +740,7 @@ msgstr "Baskerland"
 #, fuzzy
 #| msgid "Enter a valid Swedish personal identity number."
 msgid "Enter an 11-digit Estonian personal identification code."
-msgstr "Oppgi et gyldig svensk personnummer."
+msgstr "Oppgi et gyldig estisk personnummer."
 
 #: ee/forms.py:46
 #, fuzzy
@@ -3616,16 +3616,12 @@ msgid "A phone number must be 8 digits and may have country code"
 msgstr "Et telefonnummer må ha 8 siffer og eventuelt landkode"
 
 #: no/forms.py:121
-#, fuzzy
-#| msgid "Enter a valid Norwegian social security number."
 msgid "Please enter a valid Norwegian bank account number"
-msgstr "Oppgi et gyldig norsk personnummer."
+msgstr "Oppgi et gyldig norsk kontonummer."
 
 #: no/forms.py:152
-#, fuzzy
-#| msgid "Enter a valid Swedish organisation number."
 msgid "Please enter a valid Norwegian organisation number"
-msgstr "Oppgi et gyldig svensk organisasjonsnummer."
+msgstr "Oppgi et gyldig norsk organisasjonsnummer."
 
 #: pe/forms.py:30
 msgid "This field requires 8 digits."
@@ -3636,10 +3632,8 @@ msgid "This field requires 11 digits."
 msgstr "Feltet krever 11 siffer."
 
 #: pk/forms.py:26
-#, fuzzy
-#| msgid "Enter a 4 digit postcode."
 msgid "Enter a 5 digit postcode."
-msgstr "Oppgi et firesifret postnummer."
+msgstr "Oppgi et femsifret postnummer."
 
 #: pk/forms.py:40
 #, fuzzy
