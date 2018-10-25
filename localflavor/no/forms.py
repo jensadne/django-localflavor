@@ -146,7 +146,7 @@ class NOOrganisationNumberField(RegexField):
     """
     Validates the input as a Norwegian "organisasjonsnummer", which is a 9
     digit number with a checksum using modulus 11. The format is documented at
-    http://www.brreg.no/samordning/organisasjonsnummer.html (in Norwegian).
+    https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
     """
 
     default_error_messages = {'invalid': _("Please enter a valid Norwegian organisation number")}
@@ -172,6 +172,8 @@ class NOOrganisationNumberField(RegexField):
         digits, checksum = map(int, list(number)[:8]), int(number[-1])
         weights = [3, 2, 7, 6, 5, 4, 3, 2]
         calculated_checksum = (11 - multiply_reduce(digits, weights) % 11)
+        if calculated_checksum == 11:
+            calculated_checksum = 0
         if calculated_checksum == 10 or calculated_checksum != checksum:
             raise ValidationError(self.default_error_messages['invalid'], code='invalid')
         return value
